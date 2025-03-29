@@ -170,6 +170,14 @@ public class ToDoDAOImpl implements ToDoDAO {
 		}
 		return fname;
 	}
+
+	
+	
+	@Override
+	public List<Task> findAllTasksByRegid(int regid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
 
 
